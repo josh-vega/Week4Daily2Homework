@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activities.homedisplayactivity.HomeDisplayActivity">
+
+    <TextView
+        android:id="@+id/tvHomeOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Owner: "/>
+    <TextView
+        android:id="@+id/tvHomeLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Location: "/>
+    <TextView
+        android:id="@+id/tvHomeResidents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Number of Residents: "/>
+    <TextView
+        android:id="@+id/tvHomeRent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Is this home rented: true or false?"/>
+
+    <Button
+        android:id="@+id/btnHomeBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnHomeDisplaySwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SWITCH TO OFFICE"
+        android:onClick="onClick"/>
+
+</LinearLayout>

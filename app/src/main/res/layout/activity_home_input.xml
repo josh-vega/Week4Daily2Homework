@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activities.homeinputactivity.HomeInputActivity">
+
+    <EditText
+        android:id="@+id/etHomeOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Owner: "/>
+    <EditText
+        android:id="@+id/etHomeLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Location: "/>
+    <EditText
+        android:id="@+id/etHomeResidents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Number of Residents: "/>
+    <EditText
+        android:id="@+id/etHomeRent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Is this home rented: true or false?"/>
+
+    <Button
+        android:id="@+id/btnHomeNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnHomeInputSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SWITCH TO OFFICE"
+        android:onClick="onClick"/>
+
+</LinearLayout>

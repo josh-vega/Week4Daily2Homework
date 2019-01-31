@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activities.officeinputactivity.OfficeInputActivity">
+
+    <EditText
+        android:id="@+id/etOfficeOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Owner: "/>
+    <EditText
+        android:id="@+id/etOfficeLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Location: "/>
+    <EditText
+        android:id="@+id/etOfficeCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Company: "/>
+    <EditText
+        android:id="@+id/etOfficeWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Is work done: true or false?"/>
+
+    <Button
+        android:id="@+id/btnOfficeNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnOfficeInputSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SWITCH TO HOME"
+        android:onClick="onClick"/>
+
+</LinearLayout>

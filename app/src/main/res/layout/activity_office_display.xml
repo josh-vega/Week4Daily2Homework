@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activities.officedisplayactivity.OfficeDisplayActivity">
+
+    <TextView
+        android:id="@+id/tvOfficeOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Owner: "/>
+    <TextView
+        android:id="@+id/tvOfficeLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Location: "/>
+    <TextView
+        android:id="@+id/tvCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Company: "/>
+    <TextView
+        android:id="@+id/tvOfficeWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Is work done: true or false?"/>
+
+    <Button
+        android:id="@+id/btnOfficeBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnOfficeDisplaySwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SWITCH TO HOME"
+        android:onClick="onClick"/>
+
+</LinearLayout>
