@@ -9,3 +9,7 @@ Instructions:
 
 Screenshots:
 
+![screenshot_20190131-003321_week4daily2homework](https://user-images.githubusercontent.com/46490503/52032771-6d89a900-24f0-11e9-8037-b029760a10a3.jpg)
+![screenshot_20190131-003326_week4daily2homework](https://user-images.githubusercontent.com/46490503/52032772-6d89a900-24f0-11e9-9c7f-1e44260044a2.jpg)
+![screenshot_20190131-003334_week4daily2homework](https://user-images.githubusercontent.com/46490503/52032773-6d89a900-24f0-11e9-959d-f51b128bcb1a.jpg)
+![screenshot_20190131-003405_week4daily2homework](https://user-images.githubusercontent.com/46490503/52032774-6d89a900-24f0-11e9-9f05-df62f74997c2.jpg)
